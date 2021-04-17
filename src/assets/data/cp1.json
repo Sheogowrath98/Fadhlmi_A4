@@ -1,0 +1,12 @@
+{
+	"program": "CP",
+	"schedule": "16-months/4 terms",
+	"credential": "2 year Diploma",
+	"cpterm03": [
+		{"name": "Structures and Algorithms", "publisher": "Springer", "author" : "Jens Erik Fenstad", "opinion" : "Begginers guide" },
+		{"name": "Introduction to Algorithms", "publisher": "MIT Press", "author" : " Thomas H. Cormen", "opinion" : "Understand the use of Big O's" },
+		{"name": "Data Structures Using C", "publisher": "OUP India", "author" : "Reema Thareja", "opinion" : "No clue about this one" }
+
+	]	
+
+}

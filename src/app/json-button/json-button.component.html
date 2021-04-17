@@ -1,0 +1,25 @@
+<button mat-raised-button [ngClass]="{buttonCSS: 'true'}"
+                          (click)="displayJSON(1)"> <!-- or we can say class="buttonCSS" -->
+  Books for Web Dev
+  <mat-icon color="primary">Book</mat-icon>  
+</button>
+
+<hr>
+<button mat-raised-button [ngClass]="{buttonCSS: 'true'}"
+                          (click)="displayJSON(2)">
+  Books for IT Project Mang
+  <mat-icon color="primary">Book</mat-icon>  
+</button>
+<hr>
+<button mat-raised-button [ngClass]="{buttonCSS: 'true'}"
+                          (click)="displayJSON(3)"> <!-- or we can say class="buttonCSS" -->
+  Books for Data Struc
+  <mat-icon color="primary">Book</mat-icon>  
+</button>
+
+<div id="list">
+  <p [innerHTML]="outArea">
+
+  </p>
+</div>
+                        

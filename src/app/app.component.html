@@ -1,0 +1,48 @@
+<app-header [hinfo]='bio'></app-header>
+<mat-tab-group mat-stretch-tabs  
+               class="example-stretched-tabs mat-elevation-z4"
+		[ngStyle]="{textAlign: 'center'}">
+  <!-- <mat-tab label ="CSV">
+    <app-csv></app-csv>
+  </mat-tab> -->
+
+<mat-tab> <!-- json first-->
+  <ng-template mat-tab-label>
+    <span class="tab-text">JSON</span>
+    <span class="tab-text">Term 1</span>
+  </ng-template>
+  <app-json-first [cpProg01] = 't01' [cpProg02] = 't02' [cpProg03] = 't03' [cpHead] = 'cpHead'>
+  </app-json-first>
+</mat-tab>
+
+<mat-tab> <!-- json second-->
+  <ng-template mat-tab-label>
+    <span class="tab-text">JSON</span>
+    <span class="tab-text">Term 2</span>
+  </ng-template>
+  <app-json-first [cpProg01] = 't01' [cpProg02] = 't02' [cpProg03] = 't03' [cpHead] = 'cpHead'>
+  </app-json-first>
+</mat-tab>
+
+<mat-tab> <!-- json third-->
+  <ng-template mat-tab-label>
+    <span class="tab-text">JSON</span>
+    <span class="tab-text">Term 3</span>
+  </ng-template>
+  <app-json-first [cpProg01] = 't01' [cpProg02] = 't02' [cpProg03] = 't03' [cpHead] = 'cpHead'>
+  </app-json-first>
+</mat-tab>
+
+<mat-tab>  <!-- json buttons-->
+  <ng-template mat-tab-label>
+    <span class="tab-text">
+      <mat-icon color="accent">Books </mat-icon>&nbsp;&nbsp;&nbsp;&nbsp;JSON&nbsp;
+      <mat-icon color="primary">Books</mat-icon>
+    </span>
+    <span class="tab-text"></span>
+  </ng-template>
+  <app-json-button [cpProg01] = 't01' [cpProg02] = 't02' [cpProg03] = 't03'></app-json-button>
+</mat-tab>
+
+</mat-tab-group>
+<app-footer></app-footer>

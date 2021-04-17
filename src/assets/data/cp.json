@@ -1,0 +1,24 @@
+{
+	"program": "CP",
+	"schedule": "16-months/4 terms",
+	"credential": "2 year Diploma",
+	"cpterm01": [
+		{"name": "Mobile Web", "publisher": "Andy Pak", "author" : "Andy Pak", "opinion" : "Great Prof teaches, I learn from the best" },
+		{"name": "Learning Web Design", "publisher": "O'Reilly Media", "author" : "jennifer Niederst", "opinion" : "Wide knowledge of programming" },
+		{"name": "HTML and CSS", "publisher": "Wiley & Sons", "author" : "Jon Duckett", "opinion" : "Basic learning of HTML&CSS" }
+
+	],
+	"cpterm02": [
+		{"name": "The IT Project Management Answer Book", "publisher": "Berrett-Koehler Publishers", "author" : "David Pratt", "opinion" : "If you were stuck this is a book for you" },
+		{"name": "How to Cheat at IT Project Management", "publisher": "Elsevier Science", "author" : "Susan Snedaker", "opinion" : "Cheat sheet for a better project" },
+		{"name": "Mastering IT Project Management", "publisher": "J Ross", "author" : "GoodWill", "opinion" : "Provided great details of managing a project" }
+
+	],
+	"cpterm03": [
+		{"name": "Structures and Algorithms", "publisher": "Springer", "author" : "Jens Erik Fenstad", "opinion" : "Begginers guide" },
+		{"name": "Introduction to Algorithms", "publisher": "MIT Press", "author" : " Thomas H. Cormen", "opinion" : "Understand the use of Big O's" },
+		{"name": "Data Structures Using C", "publisher": "OUP India", "author" : "Reema Thareja", "opinion" : "No clue about this one" }
+
+	]	
+
+}
